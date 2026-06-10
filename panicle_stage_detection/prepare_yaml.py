@@ -128,5 +128,5 @@ yaml_path = os.path.join(output_root, "data.yaml")
 with open(yaml_path, "w") as f:
     yaml.dump(data_yaml, f, default_flow_style=False)
 
-print(f"\n✅ Dataset ready at {output_root}")
-print(f"✅ data.yaml created at {yaml_path}")
+print(f"\nDataset ready at {output_root}")
+print(f"data.yaml created at {yaml_path}")
